@@ -1,8 +1,7 @@
 # Credits
 
 Original Scraper by Danny Chrastil (@DisK0nn3cT): https://github.com/DisK0nn3cT/linkedin-gatherer
-
-Modified by @vysecurity
+Original tool by Vincent Yiu (@vysec, @vysecurity): https://github.com/vysecurity/LinkedInt.git
 
 # Installation
 ```
@@ -11,16 +10,16 @@ pip install -r requirements.txt
 
 # Change Log
 
-[v0.1 BETA 12-07-2017]
+[v0.1 BETA 28-08-2020]
 Additions:
-* UI Updates
-* Constrain to company filters
-* Addition of Hunter for e-mail prediction
+* Properly removed special caracter from email
+* Removing title from lastname to properly generate email
+* Multiple Company ID supporter with ID choice if required
+* Fetching occupation start date from profile
 
 # To-Do List
 
-* Allow for horizontal scraping and mass automated company domain, and format prediction per company
-* Add Natural Language Processing techniques on titles to discover groups of similar titles to be stuck into same "department". This should then be visualised in a graph.
+* Add Natural Language Processing techniques on titles to discover groups of similar titles to be stuck into same "department". A department column could be added to the csv and html.
 
 # Usage
 
@@ -39,8 +38,8 @@ Run LinkedInt.py and follow instructions
 ╚══════╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═════╝ ╚═╝╚═╝  ╚═══╝   ╚═╝
 
 Providing you with Linkedin Intelligence
-Author: Vincent Yiu (@vysec, @vysecurity)
-Original version by @DisK0nn3cT
+Author: Gimpy 
+Original version by Vincent Yiu (@vysec, @vysecurity)
 [*] Enter search Keywords (use quotes for more percise results)
 "General Motors"
 
