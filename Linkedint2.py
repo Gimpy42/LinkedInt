@@ -37,7 +37,7 @@ parser.add_argument('-o', '--output', help='Output file (do not include extentio
 args = parser.parse_args()
 
 config = RawConfigParser()
-config.read('Linkedint2.cfg')
+config.read('Linkedint.cfg')
 hunter_api = config.get('Hunter', 'hunter_api')
 linkedin_username = config.get('Linkedin', 'linkedin_username')
 linkedin_password = config.get('Linkedin', 'linkedin_password')
